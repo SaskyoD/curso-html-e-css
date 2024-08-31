@@ -1,0 +1,71 @@
+#header{
+    background-color: gray;
+    padding: 0 25px;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 200px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    color: black; 
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto; 
+}
+.produto{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produto li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background-color: gray;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.produto li:hover {
+    border-color: red;
+}
+.produto li:active {
+    border-color: blue;
+    color: blue;
+}
+.produto li h2:hover {
+    font-size: 40px;
+}
+
+.produto h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descrição{
+    font-size: 22px;
+    font-weight: bold;
+}
+.preço{
+    font-size: 18px;
+    margin-top: 10px;
+}
